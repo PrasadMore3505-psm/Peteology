@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/hero.jpg");
+}
+
+/* NAVIGATION BAR STARTS HERE */
+
+.nav{
+    width: 100%;
+    height: 13%;
+    background-color:#f6f8f7;
+    float: left;
+}
+
+.nav .logo{
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+
+.nav img{
+    margin-left: 50px;
+}
+
+.nav h2{
+    margin-top: 0px;
+    margin-left:13px ;
+}
+.nav .menu{
+    width: 88%;
+    height: 100%;
+    float: left;
+}
+.nav .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.nav .menu li{
+    float: left;
+    margin-right: 50px;
+
+}
+
+.nav .menu a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    top: 30;
+    left: 20;
+}
+
+.nav .menu h4{
+    float: right;
+    position: relative;
+    left: -30;
+    top: 8;
+ 
+}
+
+/* BANNER STARTS HERE */
+
+.bantext{
+    width: 30%;
+    height: 80%;
+   position: relative;
+   top: 110;
+   left: 200;
+    float: left;
+}
+
+.bantext h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.bantext h2{
+    font-size: 55px;
+    margin-top: -25px;
+}
+
+.bantext p{
+    color:white;
+    font-weight: bold;
+}
+
+.bantext button{
+    color: white;
+    background-color:#013b47 ;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.bantext #secbut{
+    color: #013b47;
+    background-color: white;
+}
+
+.banimg{
+    width: 50%;
+    height: 80%;
+    float: right;
+    margin-right: 50px;
+}
+
+.banimg img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* SECOND BACKGROUND STARTS HERE */
+
+.secondbg{
+    width: 100%;
+    height: 570px;
+}
+
+.secondbg .left{
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+.left img{
+    position: relative;
+    top: -130;
+}
+
+
+
+.secondbg .right{
+    width: 35%;
+    height: 500px;
+    float: right;
+    margin-right: 140px;
+    margin-top: 80px;
+}
+
+.right h2{
+    font-size: 35px;
+}
+
+.right #clinic{
+    color: aqua;
+}
+.right p{
+    font-size: 19px;
+}
+
+.right button{
+    color: white;
+    background-color:#013b47 ;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* THIRD BACKGROUND STARTS HERE */
+
+.thirdbg{
+    width: 100%;
+    height: 600px;
+
+}
+
+.thirdbg .box{
+    width: 12%;
+    height: 400px;
+
+    margin-left: 40px;
+    float: left;
+    margin-top: 120px;
+}
+.box img{
+    position: relative;
+    left: 45;
+    top: 10;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 100%;
+}
+.box h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.box p{
+    text-align: center;
+}
+
+.box button{
+    color: white;
+    background-color:#013b47 ;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.thirdbg .box1{
+    width:40%;
+    height: 600px;
+    float:right;
+    margin-right: 120px;
+}
+
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOURTH BACKGROUND STARTS HERE */
+
+.fourthbg{
+    width: 100%;
+    height: 660px;
+    background-color:aqua;
+    margin-top: 30px;
+}
+
+.fourthbg h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.fourthbg .top{
+    width: 100%;
+    height: 200px;
+}
+
+.fourthbg .fbox{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+.fourthbg .fbox .img{
+    width: 100%;
+    height: 10%;
+  
+}
+
+
+.fourthbg .sbox{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+.fourthbg .tbox{
+    width: 29%;
+    height: 200px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.bottom .middle{
+    position: relative;
+    left: 25;  
+}
+
+
+
+/* FIFTH BACKGROUND STARTS HERE */
+
+.fifthbg{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.fifthbg .heading{
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+.heading h1{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading button{
+    color: white;
+    background-color:#013b47 ;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left:420;
+}
